@@ -23,8 +23,6 @@ yData <- rbind(yTest, yTrain)
 #Extracts only the measurements on the mean and standard deviation for each measurement.
 extractFeatures <- features$V2[grepl("mean|std", features$V2)]
 extractFeatures <- as.character(extractFeatures)
-extractFeatures <- gsub("()","", extractFeatures, fixed=TRUE)
-extractFeatures <- gsub("-","", extractFeatures, fixed=TRUE)
 xData <- xData[grepl("mean|std", features$V2)]
 
 #Uses descriptive activity names to name the activities in the data set
