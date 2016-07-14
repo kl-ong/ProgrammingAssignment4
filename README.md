@@ -1,4 +1,8 @@
-run_analysis.R
+Download the datasets from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
+Unzip the datasets, and you will find the datasets in ./UCI HAR Dataset
+
+Run ./run_analysis.R 
 
 Following are the flow of the scripts
 
